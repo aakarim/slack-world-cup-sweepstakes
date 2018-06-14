@@ -1,0 +1,130 @@
+[
+  {
+    "name": "ARGENTINA",
+    "image": "https:\/\/api.fifa.com\/api\/v1\/picture\/flags-fwc2018-5\/arg"
+  },
+  {
+    "name": "AUSTRALIA",
+    "image": "https:\/\/api.fifa.com\/api\/v1\/picture\/flags-fwc2018-5\/aus"
+  },
+  {
+    "name": "BELGIUM",
+    "image": "https:\/\/api.fifa.com\/api\/v1\/picture\/flags-fwc2018-5\/bel"
+  },
+  {
+    "name": "BRAZIL",
+    "image": "https:\/\/api.fifa.com\/api\/v1\/picture\/flags-fwc2018-5\/bra"
+  },
+  {
+    "name": "COLOMBIA",
+    "image": "https:\/\/api.fifa.com\/api\/v1\/picture\/flags-fwc2018-5\/col"
+  },
+  {
+    "name": "COSTA RICA",
+    "image": "https:\/\/api.fifa.com\/api\/v1\/picture\/flags-fwc2018-5\/crc"
+  },
+  {
+    "name": "CROATIA",
+    "image": "https:\/\/api.fifa.com\/api\/v1\/picture\/flags-fwc2018-5\/cro"
+  },
+  {
+    "name": "DENMARK",
+    "image": "https:\/\/api.fifa.com\/api\/v1\/picture\/flags-fwc2018-5\/den"
+  },
+  {
+    "name": "EGYPT",
+    "image": "https:\/\/api.fifa.com\/api\/v1\/picture\/flags-fwc2018-5\/egy"
+  },
+  {
+    "name": "ENGLAND",
+    "image": "https:\/\/api.fifa.com\/api\/v1\/picture\/flags-fwc2018-5\/eng"
+  },
+  {
+    "name": "FRANCE",
+    "image": "https:\/\/api.fifa.com\/api\/v1\/picture\/flags-fwc2018-5\/fra"
+  },
+  {
+    "name": "GERMANY",
+    "image": "https:\/\/api.fifa.com\/api\/v1\/picture\/flags-fwc2018-5\/ger"
+  },
+  {
+    "name": "ICELAND",
+    "image": "https:\/\/api.fifa.com\/api\/v1\/picture\/flags-fwc2018-5\/isl"
+  },
+  {
+    "name": "IRAN",
+    "image": "https:\/\/api.fifa.com\/api\/v1\/picture\/flags-fwc2018-5\/irn"
+  },
+  {
+    "name": "JAPAN",
+    "image": "https:\/\/api.fifa.com\/api\/v1\/picture\/flags-fwc2018-5\/jpn"
+  },
+  {
+    "name": "SOUTH KOREA",
+    "image": "https:\/\/api.fifa.com\/api\/v1\/picture\/flags-fwc2018-5\/kor"
+  },
+  {
+    "name": "MEXICO",
+    "image": "https:\/\/api.fifa.com\/api\/v1\/picture\/flags-fwc2018-5\/mex"
+  },
+  {
+    "name": "MOROCCO",
+    "image": "https:\/\/api.fifa.com\/api\/v1\/picture\/flags-fwc2018-5\/mar"
+  },
+  {
+    "name": "NIGERIA",
+    "image": "https:\/\/api.fifa.com\/api\/v1\/picture\/flags-fwc2018-5\/nga"
+  },
+  {
+    "name": "PANAMA",
+    "image": "https:\/\/api.fifa.com\/api\/v1\/picture\/flags-fwc2018-5\/pan"
+  },
+  {
+    "name": "PERU",
+    "image": "https:\/\/api.fifa.com\/api\/v1\/picture\/flags-fwc2018-5\/per"
+  },
+  {
+    "name": "POLAND",
+    "image": "https:\/\/api.fifa.com\/api\/v1\/picture\/flags-fwc2018-5\/pol"
+  },
+  {
+    "name": "PORTUGAL",
+    "image": "https:\/\/api.fifa.com\/api\/v1\/picture\/flags-fwc2018-5\/por"
+  },
+  {
+    "name": "RUSSIA",
+    "image": "https:\/\/api.fifa.com\/api\/v1\/picture\/flags-fwc2018-5\/rus"
+  },
+  {
+    "name": "SAUDI ARABIA",
+    "image": "https:\/\/api.fifa.com\/api\/v1\/picture\/flags-fwc2018-5\/ksa"
+  },
+  {
+    "name": "SENEGAL",
+    "image": "https:\/\/api.fifa.com\/api\/v1\/picture\/flags-fwc2018-5\/sen"
+  },
+  {
+    "name": "SERBIA",
+    "image": "https:\/\/api.fifa.com\/api\/v1\/picture\/flags-fwc2018-5\/srb"
+  },
+  {
+    "name": "SPAIN",
+    "image": "https:\/\/api.fifa.com\/api\/v1\/picture\/flags-fwc2018-5\/esp"
+  },
+  {
+    "name": "SWEDEN",
+    "image": "https:\/\/api.fifa.com\/api\/v1\/picture\/flags-fwc2018-5\/swe"
+  },
+  {
+    "name": "SWITZERLAND",
+    "image": "https:\/\/api.fifa.com\/api\/v1\/picture\/flags-fwc2018-5\/sui"
+  },
+  {
+    "name": "TUNISIA",
+    "image": "https:\/\/api.fifa.com\/api\/v1\/picture\/flags-fwc2018-5\/tun"
+  },
+  {
+    "name": "URUGUAY",
+    "image": "https:\/\/api.fifa.com\/api\/v1\/picture\/flags-fwc2018-5\/uru"
+  }
+]

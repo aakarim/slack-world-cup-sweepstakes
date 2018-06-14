@@ -1,0 +1,74 @@
+{
+  "Adil": {
+    "slackId": "",
+    "teams": ["Peru",	"Mexico"]
+  },
+  "Deeps": {
+    "slackId": "",
+    "teams": ["Germany"]
+  },
+  "Jon": {
+    "slackId": "",
+    "teams": ["Colombia", "Morocco"]
+  },
+  "Ole": {
+    "slackId": "",
+    "teams": ["Sweden", "Panama"]
+  },
+  "Adam": {
+    "slackId": "",
+    "teams": ["England", "Russia"]
+  },
+  "Ben": {
+    "slackId": "",
+    "teams": ["Spain",	"South Korea"]
+  },
+  "Colette": {
+    "slackId": "",
+    "teams": ["Senegal",	"Japan"]
+  },
+  "Eleanor": {
+    "slackId": "",
+    "teams": ["Argentina"]
+  },
+  "Emma": {
+    "slackId": "",
+    "teams": ["Portugal"]
+  },
+  "Jason": {
+    "slackId": "",
+    "teams": ["Iceland", "Serbia"]
+  },
+  "Kenz": {
+    "slackId": "",
+    "teams": ["Croatia", "Egypt"]
+  },
+  "Kim": {
+    "slackId": "",
+    "teams": ["Poland",	"Saudi Arabia"]
+  },
+  "Martin": {
+    "slackId": "",
+    "teams": ["France", "Australia"]
+  },
+  "Maryam": {
+    "slackId": "",
+    "teams": ["Tunisia",	"Nigeria"]
+  },
+  "Monika": {
+    "slackId": "",
+    "teams": ["Belgium",	"Switzerland"]
+  },
+  "Prakash": {
+    "slackId": "",
+    "teams": ["Brazil"]
+  },
+  "Sam": {
+    "slackId": "",
+    "teams": ["Uruguay",	"Iran"]
+  },
+  "Tom": {
+    "slackId": "",
+    "teams": ["Denmark",	"Costa Rica"]
+  }
+}
