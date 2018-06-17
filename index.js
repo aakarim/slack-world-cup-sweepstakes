@@ -36,7 +36,7 @@ function convertSequenceToPairs(arr) {
     }
     // create new array
     return [...acc, [current]];
-  }, [])
+  }, []);
 }
 
 function getScoreOrTimeFromLive(live, scores, times) {
@@ -56,7 +56,10 @@ function getScoreOrTimeFromLive(live, scores, times) {
 
 function removeInvalidCountries(teams) {
   return teams.reduce((acc, current) => {
-    if (countries.findIndex(country => country.name === current.toUpperCase()) > -1) {
+    if (
+      countries.findIndex(country => country.name === current.toUpperCase()) >
+      -1
+    ) {
       return [...acc, current];
     }
     return acc;
@@ -100,7 +103,9 @@ async function getFixtures(date) {
   });
 
   // check if there is 'mins'
-  const live = liveRaw.map((l) => l.includes('mins') || l.includes('HT') || l.includes('ET'));
+  const live = liveRaw.map(
+    l => l.includes('mins') || l.includes('HT') || l.includes('ET')
+  );
 
   const times = await new Promise((res, rej) => {
     x(
@@ -122,7 +127,15 @@ async function getFixtures(date) {
   });
   const status = getScoreOrTimeFromLive(live, scores, times);
 
-  console.log('teams, times, scores,  bbcLinks, live, status', teams, times, scores, bbcLinks, live, status);
+  console.log(
+    'teams, times, scores,  bbcLinks, live, status',
+    teams,
+    times,
+    scores,
+    bbcLinks,
+    live,
+    status
+  );
   const fixtures = teams.map((teamPair, i) => ({
     time: !live[i] && status[i], // only show time if not live (limitation on bbc site)
     teams: teamPair,
@@ -180,7 +193,7 @@ async function sendError(e) {
 }
 
 async function createMatchStartMessage(matches) {
-  const attachments = matches.map((match) => ({
+  const attachments = matches.map(match => ({
     fallback: `${match.players[0]} v ${match.players[1]}`,
     color: '#36a64f',
     author_name: match.bbcLink && 'Visit match overview',
@@ -195,15 +208,17 @@ async function createMatchStartMessage(matches) {
     footer_icon: 'https://api.fifa.com/api/v1/picture/tournaments-sq-4/254645_w'
   }));
   return {
-    text: "Kickoff!",
-    attachments,
-  }
+    text: 'Kickoff!',
+    attachments
+  };
 }
 
 async function sendMatchStartReminder(date, time) {
   try {
     const fixtures = await getFixtures(date);
-    const matchesAboutToStart = fixtures.filter(fixture => fixture.time === time);
+    const matchesAboutToStart = fixtures.filter(
+      fixture => fixture.time === time
+    );
     // any matches about to start?
     if (matchesAboutToStart.length > 0) {
       console.log('matches about to start!');
@@ -253,13 +268,18 @@ async function sendFixtures(date, time) {
 }
 
 async function isReady() {
-  const test = await slack.api.test({ token });
-  if (!test.ok) {
-    console.error('Not ready!', test);
+  try {
+    const test = await slack.api.test({ token });
+    if (!test.ok) {
+      console.error('Not ready!', test);
+      return false;
+    }
+    console.log('Ready!', test);
+    return true;
+  } catch (e) {
+    console.error(e);
     return false;
   }
-  console.log('Ready!', test);
-  return true;
 }
 
 (async function main() {
@@ -269,7 +289,7 @@ async function isReady() {
     return;
   }
   const dt = moment();
-  const date = dt.format('YYYY-MM-DD') //'2018-06-15';
+  const date = dt.format('YYYY-MM-DD'); //'2018-06-15';
   const time = dt.format('HH:mm');
   console.log(date, time);
   // initial fire for dev purposes
